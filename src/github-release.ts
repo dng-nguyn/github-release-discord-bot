@@ -11,7 +11,7 @@ export class GitHubRelease {
   private readonly isPrerelease: boolean;
   private readonly author: { username: string; photo: string };
 
-  private static readonly STABLE_COLOUR = 0x0072f7;
+  private static readonly STABLE_COLOUR = 0x08ff08;
   private static readonly PRERELEASE_COLOUR = 0xffb11a;
 
   public constructor(
