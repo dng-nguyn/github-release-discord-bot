@@ -21,7 +21,7 @@ class ReleaseChecker {
 
   options = {
     maxItems: 2,
-    revalidate: 1000 * 60, // 1 minute
+    revalidate: 15000 * 60, // 15 minutes
   };
 
   async getNewReleases(): Promise<GitHubRelease[]> {
